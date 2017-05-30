@@ -10,7 +10,7 @@
 
 
 	overflow: auto;
-	flex: 0 0 1;
+	flex: 0 0 auto;
 	position: relative;
 	order: 0;
 
@@ -62,14 +62,7 @@
 	}
 }
 
-.tree-view-resizer .tree-view-scroller {
+.tree-view > .list-tree {
 	flex: 1 1;
-	height: 100%;
 	overflow: auto;
-	position: relative;
-
-	.tree-view {
-		height: auto;
-		min-height: inherit;
-	}
 }
